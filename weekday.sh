@@ -2,7 +2,7 @@
 
 echo "Enter the week day:";
 read weekday
-if [ $weekday == 1 ]
+if [ $weekday == 0 ]
 then
 echo "Sunday";
 elif [ $weekday == 2 ]
